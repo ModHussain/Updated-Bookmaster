@@ -10,7 +10,7 @@ Genre =require('./models/genre');
 Book =require('./models/book');
 
 // Connect to mongodb server globally example mlab server
-mongoose.connect('mongodb://hussain:inazumaHussain8@ds119171.mlab.com:19171/testingnode');
+
 // for localmongodb server mongoose.connect('mongodb://localhost/bookstore');
 var db = mongoose.connection;
 
